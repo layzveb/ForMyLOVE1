@@ -15,7 +15,7 @@ body {
 }
 
 .im1 {
-  height: 90vh;
+  height: 160vw;
   animation: boom 1s 2s both;
 }
 
@@ -26,8 +26,8 @@ span {
 
 p {
   color: white;
-  font-size: 2vw;
-  
+  font-size: 1px;
+  animation: boom 1s 2s both;
 }
 
 .outer {
@@ -45,7 +45,7 @@ p {
   position: relative;
   border: 0;
   margin: 0;
-  top: 8vh;
+  top: 6vh;
 }
 
 .inner2 {
@@ -70,9 +70,11 @@ p {
 
 @keyframes boom {
   0% {
-    height: 90vh;
+    height: 160vw;
+    font-size: 1px;
   }
   100% {
-    height: 55vh;
+    height: 100vw;
+    font-size: 7vw;
   }
 }
